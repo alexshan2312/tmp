@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>                                          <!-- Вся техническая информация о странице -->
+    <meta charset="UTF-8">                          <!--Кодировка страницы-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   <!-- Для совместимости с IE-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">              <!-- Для красивого отображения на мобильных устройствах-->
+    <title>Персонажи Диснея</title>              <!-- Заголовок страницы -->
+    <link rel="icon" href="images/icons8-disney-48.png" sizes ="any" type="image/png">  <!--  фавиконка -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1><a href="index.html">Персонажи Диснея</a></h1>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="films.html">Мультфильмы</a></li>
+            <li><a href="about_us.html">О сайте</a></li>
+        </ul>
+        <div class="burger-menu">&#9776;</div>
+    </nav>
+</header>
+<main id="contact-main">
+    <h2>О создателе</h2>
+    <div id="contact-card">
+        <p>Добро пожаловать на мой увлекательный сайт, посвященный неповторимому миру персонажей Диснея! Меня зовут Алекснадр, и я - создатель этого волшебного уголка, где вы можете окунуться в магию и встретиться с любимыми героями.
+            Моя страсть к миру Диснея началась еще в детстве, когда каждая мультфильмовая история казалась чем-то волшебным и невероятным. С годами мое увлечение превратилось в настоящую любовь и вдохновение, которыми я хочу поделиться с вами на этом сайте.
+            Здесь вы найдете увлекательные истории о любимых персонажах, увидите красочные иллюстрации и, возможно, обнаружите что-то новое в мире, который кажется таким хорошо известным. Мой сайт создан с любовью к деталям, стремлением подарить вам умиротворение и веселье.
+            Благодарю вас за посещение, и надеюсь, что вы насладитесь путешествием по этим волшебным страницам вместе со мной. Если у вас есть вопросы или предложения, не стесняйтесь связаться со мной. Пусть ваше время здесь будет таким же волшебным, как и для героев Диснея! </p>
+    </div>
+    <pre>
+Александр
+Создатель сайта "Персонажи Диснея"
+    </pre>
+    <div id="for_form">
+    <form method="post" id="form">
+        <fieldset>
+            <legend>Оставьте свой отзыв!</legend>
+            <input type="text" name="name" id="name" required placeholder="Имя">
+            <input type="tel" name="phone" id="phone" pattern="[0-9]{11}" placeholder="Номер телефона">
+            <input type="email" name="email" id="email" placeholder="Почта">
+            <input type="password" name="password" id="password" minlength="8" placeholder="Пароль">
+            <textarea name="message" id="message" cols="30" rows="5" maxlength="100" minlength="4" placeholder="Отзыв" required></textarea>
+        </fieldset>
+        <button type="submit">Отправить</button>
+    </form>
+    </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
